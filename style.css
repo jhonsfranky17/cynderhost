@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: 'Sora', sans-serif;
 }
-.sample{
+.sample1{
     writing-mode: vertical-lr;
+}
+.sample>* {
+    flex-shrink: 1;
+    flex-grow: 1;
+    min-width: 25%;
 }

@@ -1,12 +1,15 @@
+/* Universal Selector */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Sora', sans-serif;
 }
+/* Vertical Text */
 .sample1{
     writing-mode: vertical-lr;
 }
+/* Direct children of sample class */
 .sample>* {
     flex-shrink: 1;
     flex-grow: 1;

@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing-Page</title>
+    <title>cynderhost</title>
+    <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,6 +21,7 @@
     />
   </head>
   <body>
+    <!-- Wrapper -->
     <div
       class="min-h-dvh w-full flex flex-col bg-gradient-to-b from-emerald-700 to-sky-950"
     >
@@ -38,7 +42,7 @@
                 ><img
                   src="./assets/logo.png"
                   alt="cynderhost-logo"
-                  class="w-6 xl:max-2xl:w-5 min-[640px]:max-xl:w-4 max-[639px]:w-6"
+                  class="w-6 xl:max-2xl:w-5 min-[640px]:max-xl:w-4 max-[639px]:w-5"
               /></a>
               <a
                 href=""
@@ -152,26 +156,29 @@
         id="second-page"
         class="h-dvh w-full flex flex-col items-center justify-center bg-black rounded-b-[70px]"
       >
+        <!-- Content -->
         <div
-          class="h-dvh w-2/3 relative flex flex-col items-center justify-center max-[639px]:w-dvw"
+          class="h-dvh w-2/3 relative flex flex-col items-center justify-center max-[639px]:w-full"
         >
+          <!-- Title -->
           <div
-            class="flex flex-col w-1/2 max-[639px]:w-full gap-6 max-[639px]:gap-3 absolute z-10 left-4 max-[639px]:left-10 top-[108px] max-[639px]:top-14"
+            class="flex flex-col w-1/2 max-[639px]:w-full gap-6 max-[639px]:gap-3 absolute z-10 left-4 max-[639px]:left-0 top-[108px] max-[639px]:top-14 max-[639px]:pl-7"
           >
             <h1
-              class="text-white text-5xl font-black tracking-tight max-[639px]:text-[2.5rem]"
+              class="text-white text-5xl font-black tracking-tight max-[639px]:text-[2rem]"
             >
               We're faster than<br />other hosts.
             </h1>
             <h2
-              class="text-gray-400 font-thin text-base tracking-tighter max-[639px]:text-sm max-[639px]:leading-4"
+              class="text-gray-400 font-thin text-base tracking-tighter max-[639px]:text-xs max-[639px]:leading-4"
             >
               Load times of identical, default WordPress sites<br />tested from
               10 different servers.
             </h2>
           </div>
+          <!-- Bar Graph -->
           <div
-            class="max-[639px]:w-screen flex max-[639px]:flex-col gap-2 max-[639px]:gap-4 items-end max-[639px]:items-start max-[639px]:justify-center absolute z-0 max-[639px]:top-56 max-[639px]:left-10"
+            class="max-[639px]:w-full flex max-[639px]:flex-col gap-2 max-[639px]:gap-4 items-end max-[639px]:items-start max-[639px]:justify-center absolute z-0 max-[639px]:top-56 max-[639px]:left-0 max-[639px]:pl-7"
           >
             <div
               class="text-center flex flex-col max-[639px]:w-full max-[639px]:flex-row-reverse max-[639px]:items-center max-[639px]:justify-end gap-3 text-orange-500"
@@ -294,7 +301,7 @@
               </h2>
             </div>
             <div
-              class="flex flex-col h-[42rem] max-[639px]:w-full max-[639px]:h-10 max-[639px]:flex-row-reverse justify-start gap-52 max-[639px]:gap-44 max-[639px]:pr-36 max-[639px]:relative text-white font-thin text-base max-[639px]:text-[10px] tracking-tighter"
+              class="flex flex-col h-[42rem] max-[639px]:w-full max-[639px]:h-10 max-[639px]:flex-row-reverse justify-start gap-52 max-[639px]:gap-44 max-[639px]:pr-32 max-[639px]:relative text-white font-thin text-base max-[639px]:text-[10px] tracking-tighter"
             >
               <h2>300</h2>
               <h2
@@ -314,14 +321,17 @@
           >
         </div>
       </div>
+      <!-- Third Page -->
       <div class="bg-black h-dvh w-full">
         <div
           id="third-page"
           class="h-dvh w-full bg-gradient-to-b from-emerald-700 to-sky-950 rounded-b-[70px] flex text-amber-400 max-[639px]:flex-col max-[639px]:items-center max-[639px]:gap-10"
         >
+          <!-- Left Child -->
           <div
-            class="flex-1 flex justify-center items-start pt-36 max-[639px]:flex-none max-[639px]:pt-16"
+            class="flex-1 flex justify-center items-start pt-36 max-[639px]:flex-none max-[639px]:pt-14"
           >
+            <!-- Left Content -->
             <div class="flex flex-col gap-6 max-[639px]:gap-3">
               <h1 class="text-8xl tracking-tighter max-[639px]:text-5xl">
                 Secure. <br />Faster <br />More Reliable.
@@ -340,9 +350,11 @@
               </button>
             </div>
           </div>
+          <!-- Right Child -->
           <div
             class="flex-1 flex flex-col justify-start items-center pt-36 relative tracking-tighter max-[639px]:p-0 max-[639px]:ml-[-70px]"
           >
+            <!-- Right Content -->
             <div class="flex flex-col gap-12 max-[639px]:gap-6">
               <div class="flex flex-col gap-2 max-[639px]:gap-0">
                 <h1 class="text-9xl tracking-tighter max-[639px]:text-6xl">
@@ -373,6 +385,7 @@
                 </h2>
               </div>
             </div>
+            <!-- Expand More -->
             <div
               class="flex justify-start max-[639px]:justify-center items-center w-full absolute bottom-11 -left-3 max-[639px]:left-10 max-[639px]:bottom-24"
             >
@@ -387,11 +400,14 @@
           </div>
         </div>
       </div>
+      <!-- Fourth Page -->
       <div
         id="fourth-page"
         class="bg-black text-white w-full min-h-screen flex justify-center"
       >
-        <div class="sample w-3/4 h-full flex flex-wrap gap-16 py-20">
+        <!-- Content -->
+        <div class="sample w-3/4 h-full flex flex-wrap gap-16 py-14">
+          <!-- Title -->
           <div class="flex justify-between items-end">
             <div class="flex flex-col gap-6 max-[639px]:gap-2">
               <h1 class="text-7xl max-[639px]:text-4xl tracking-tight">
@@ -405,11 +421,12 @@
               </h3>
             </div>
             <button
-              class="rounded-3xl w-28 max-[639px]:w-14 max-[639px]:h-5 h-9 text-[10px] max-[639px]:text-[6px] text-white bg-orange-500 hover:bg-orange-600"
+              class="rounded-3xl w-28 max-[639px]:w-14 max-[639px]:h-6 h-9 text-[10px] max-[639px]:text-[7px] text-white bg-orange-500 hover:bg-orange-600"
             >
               Learn more
             </button>
           </div>
+          <!-- Content -->
           <div class="sample w-3/4 h-full flex gap-5 gap-y-10 flex-wrap">
             <div>
               <img
@@ -420,7 +437,7 @@
               <h1 class="tracking-tighter text-base font-medium">
                 State-of-the-Art Datacenter
               </h1>
-              <h1 class="tracking-tighter font-thin text-xs text-gray-400">
+              <h1 class="tracking-tighter font-thin text-[10px] text-gray-400">
                 CynderHost High Performance has top of the line,
                 <br />enterprise grade security protecting your sites.
               </h1>
@@ -434,7 +451,7 @@
               <h1 class="tracking-tighter text-base font-medium">
                 Full Hardware Redundancy
               </h1>
-              <h1 class="tracking-tighter font-thin text-xs text-gray-400">
+              <h1 class="tracking-tighter font-thin text-[10px] text-gray-400">
                 CynderHost High Performance has top of the line,
                 <br />enterprise grade security protecting your sites.
               </h1>
@@ -448,7 +465,7 @@
               <h1 class="tracking-tighter text-base font-medium">
                 Host Security
               </h1>
-              <h1 class="tracking-tighter font-thin text-xs text-gray-400">
+              <h1 class="tracking-tighter font-thin text-[10px] text-gray-400">
                 CynderHost High Performance has top of the line,
                 <br />enterprise grade security protecting your sites.
               </h1>
@@ -462,7 +479,7 @@
               <h1 class="tracking-tighter text-base font-medium">
                 State-of-the-Art Datacenter
               </h1>
-              <h1 class="tracking-tighter font-thin text-xs text-gray-400">
+              <h1 class="tracking-tighter font-thin text-[10px] text-gray-400">
                 CynderHost High Performance has top of the line,
                 <br />enterprise grade security protecting your sites.
               </h1>
@@ -476,7 +493,7 @@
               <h1 class="tracking-tighter text-base font-medium">
                 Full Hardware Redundancy
               </h1>
-              <h1 class="tracking-tighter font-thin text-xs text-gray-400">
+              <h1 class="tracking-tighter font-thin text-[10px] text-gray-400">
                 CynderHost High Performance has top of the line,
                 <br />enterprise grade security protecting your sites.
               </h1>
@@ -490,7 +507,7 @@
               <h1 class="tracking-tighter text-base font-medium">
                 Host Security
               </h1>
-              <h1 class="tracking-tighter font-thin text-xs text-gray-400">
+              <h1 class="tracking-tighter font-thin text-[10px] text-gray-400">
                 CynderHost High Performance has top of the line,
                 <br />enterprise grade security protecting your sites.
               </h1>
@@ -504,7 +521,7 @@
               <h1 class="tracking-tighter text-base font-medium">
                 State-of-the-Art Datacenter
               </h1>
-              <h1 class="tracking-tighter font-thin text-xs text-gray-400">
+              <h1 class="tracking-tighter font-thin text-[10px] text-gray-400">
                 CynderHost High Performance has top of the line,
                 <br />enterprise grade security protecting your sites.
               </h1>
@@ -518,7 +535,7 @@
               <h1 class="tracking-tighter text-base font-medium">
                 Full Hardware Redundancy
               </h1>
-              <h1 class="tracking-tighter font-thin text-xs text-gray-400">
+              <h1 class="tracking-tighter font-thin text-[10px] text-gray-400">
                 CynderHost High Performance has top of the line,
                 <br />enterprise grade security protecting your sites.
               </h1>
@@ -532,7 +549,7 @@
               <h1 class="tracking-tighter text-base font-medium">
                 Host Security
               </h1>
-              <h1 class="tracking-tighter font-thin text-xs text-gray-400">
+              <h1 class="tracking-tighter font-thin text-[10px] text-gray-400">
                 CynderHost High Performance has top of the line,
                 <br />enterprise grade security protecting your sites.
               </h1>
